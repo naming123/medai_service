@@ -1,0 +1,100 @@
+/* styles/globals.css */
+
+/* 전체 페이지 공통 스타일 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 기본 폰트 스타일 및 배경 */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #fafafa;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* 페이지 기본 레이아웃 */
+html,
+body {
+  height: 100%;
+}
+
+main {
+  min-height: calc(100vh - 160px); /* 헤더와 푸터 높이를 제외한 메인 영역 */
+}
+
+header {
+  background-color: #0070f3;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+/* 기본 링크 스타일 */
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* 전역적인 버튼 스타일 */
+button {
+  background-color: #00ffff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #005bb5;
+}
+
+/* 전역적인 입력 필드 스타일 */
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+textarea {
+  min-height: 150px;
+}
+
+/* 반응형 디자인 */
+@media (max-width: 768px) {
+  header {
+    padding: 15px;
+    font-size: 18px;
+  }
+
+  footer {
+    padding: 15px;
+    font-size: 14px;
+  }
+
+  main {
+    padding: 15px;
+  }
+}
