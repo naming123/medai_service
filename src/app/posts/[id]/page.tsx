@@ -2,7 +2,7 @@
 
 "use client";
 
-import { supabase } from "@/app/supabaseClient";
+import { supabase } from "../../../../lib/supabaseClient";
 import "../../../styles/style.css";
 
 type Post = {
