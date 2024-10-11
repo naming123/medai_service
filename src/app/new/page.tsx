@@ -1,7 +1,7 @@
 // components/PostCreator.tsx
 "use client";
 import { useState } from "react";
-import { supabase } from "../supabaseClient";
+import { supabase } from "../../../lib/supabaseClient";
 
 export default function PostCreator() {
   const [title, setTitle] = useState("");
