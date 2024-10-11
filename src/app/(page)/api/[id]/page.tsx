@@ -1,4 +1,4 @@
-"use client;
+"use client";
 
 import { useEffect, useState } from "react";
 import { useParams } from "next/navigation"; // useParams를 사용하여 URL 파라미터 가져오기
